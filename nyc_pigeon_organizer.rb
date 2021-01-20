@@ -8,5 +8,7 @@ def nyc_pigeon_organizer(data)
      
     end 
   master_hash
+  binding.pry 
+  print "hello"
   end 
 end
