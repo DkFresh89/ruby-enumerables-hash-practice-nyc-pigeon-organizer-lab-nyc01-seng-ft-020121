@@ -1,3 +1,9 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  master_hash = {}
+  data.each do |key, name| 
+    if name == String  
+      name << master_hash
+    end 
+  
+  end 
 end
