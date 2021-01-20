@@ -6,6 +6,6 @@ def nyc_pigeon_organizer(data)
     if name == String  
       master_hash[name] = key
     end 
- master_hash
+# master_hash
   end 
 end
