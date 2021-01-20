@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     if name == String  
       name << master_hash
       binding.pry 
+      master_hash
     end 
   
   end 
