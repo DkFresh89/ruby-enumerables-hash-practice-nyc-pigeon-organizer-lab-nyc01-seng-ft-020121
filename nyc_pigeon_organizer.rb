@@ -4,11 +4,9 @@ def nyc_pigeon_organizer(data)
   master_hash = {}
   data.each do |key, name| 
     if name == String  
-      name << master_hash
+      master_hash[name]
      
     end 
-  master_hash
-  binding.pry 
-  print "hello"
+ 
   end 
 end
